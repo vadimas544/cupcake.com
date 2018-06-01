@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 /********************************************************************MAINCSS**********/
 /********************************NAVIGATION*****************/
 body{
@@ -74,6 +74,13 @@ body{
 }
 .header-contacts a:hover{
 	color: #CC9999;
+}
+.nav > li > a{
+	color: white !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+.nav > li > a:hover{
+	color: #CC9999 !important;
 }
 /*****************************************MEDIAQUERIES***************/
 @media screen and (min-width: 768px) and (max-width: 992px){
