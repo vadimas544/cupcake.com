@@ -7,7 +7,7 @@
     <title>Cupcake.com</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -16,7 +16,7 @@
     <![endif]-->
   </head>
   <body>
-	<div id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="navbar navbar-default" role="navigation">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-2 col-md-2">
@@ -51,8 +51,21 @@
 	     			</div>
 	     		</div>
       		</div>
+      	</div>
+     </div>
+	 <div class="jumbotron">
+      			<div class="container">
+      				<div class="header-text">
+      					<div class="row">
+      						<div class="col-lg-8 col-lg-offset-2 text-center">
+      							<a href="#">заказать тортик</a>
+      							<p>самые вкусные тортики в вишневом</p>
+      						</div>
+      					</div>
+      				</div>
+  				</div>
       </div>
-    </div>
+   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
