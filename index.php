@@ -16,6 +16,7 @@
     <![endif]-->
   </head>
   <body>
+  <!--HEADER-->
 	<div class="navbar navbar-default" role="navigation">
 		<div class="container">
 			<div class="row">
@@ -65,7 +66,46 @@
       				</div>
   				</div>
       </div>
-   
+   <!--END HEADER-->
+   <!--ADVANTAGES-->
+   <div class="advantages">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-4">
+          <h2 class="text-center">Вкусные и качественные<br /> тортики на <br />любую тематику</h2>
+          <div class="text-center">
+            <img src="img/1.jpg" class="img-responsive img-circle" alt="...">
+          </div>
+         </div>
+         <div class="col-lg-4">
+          <h2 class="text-center">Выбор начинок<br />на любой вкус</h2>
+          <div class="text-center">
+            <img src="img/adv_3.png" class="img-circle" alt="...">
+          </div>
+         </div>
+         <div class="col-lg-4">
+          <h2 class="text-center">Доставка по Вишневому<br />и Киеву</h2>
+          <div class="text-center">
+            <img src="img/adv_3.png" class="img-circle" alt="...">
+          </div>
+         </div>
+         <!--
+         <div class="col-lg-4 text-center">
+           <h2>Выбор начинок<br />на любой вкус</h2>
+           <div class="text-center">
+            <img src="img/adv_3.png" alt="img" class="img-responsive img-circle" />
+           </div>
+         </div>
+         <div class="col-lg-4 text-center">
+           <h2>Доставка по Вишневому <br /> и Киеву</h2>
+            <div class="text-center">
+              <img src="img/adv_3.png" alt="img" class="img-responsive img-circle" />
+            </div>
+         </div>-->
+     </div>
+   </div>
+  </div>
+   <!--END ADVANTAGES-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
