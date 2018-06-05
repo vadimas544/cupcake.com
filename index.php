@@ -66,7 +66,10 @@
       				</div>
   				</div>
       </div>
-      <div class="container advantage_wrap">
+
+   <!--END HEADER-->
+   <!--ADVANTAGES-->
+	      <div class="container advantage_wrap">
       	<div class="row">
       		<div class="col-lg-4 adv">
       			<img src="img/1.jpg" class="img-circle img-responsive" alt="...">
@@ -82,46 +85,85 @@
       		</div>
       	</div>
       </div>
-   <!--END HEADER-->
-   <!--ADVANTAGES-
-   <div class="advantages">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-4 col-md-4 col-sm-4">
-          <h2 class="text-center">Вкусные и качественные<br /> тортики на <br />любую тематику</h2>
-          <div class="text-center">
-            <img src="img/1.jpg" class="img-responsive img-circle" alt="...">
-          </div>
-         </div>
-         <div class="col-lg-4 col-md-4 col-sm-4">
-          <h2 class="text-center">Выбор начинок<br />на любой вкус</h2>
-          <div class="text-center">
-            <img src="img/1.jpg" class="img-responsive img-circle" alt="...">
-          </div>
-         </div>
-         <div class="col-lg-4 col-md-4 col-sm-4">
-          <h2 class="text-center">Доставка по Вишневому<br />и Киеву</h2>
-          <div class="text-center">
-            <img src="img/1.jpg" class="img-responsive img-circle" alt="...">
-          </div>
-         </div>
-         <!--
-         <div class="col-lg-4 text-center">
-           <h2>Выбор начинок<br />на любой вкус</h2>
-           <div class="text-center">
-            <img src="img/adv_3.png" alt="img" class="img-responsive img-circle" />
-           </div>
-         </div>
-         <div class="col-lg-4 text-center">
-           <h2>Доставка по Вишневому <br /> и Киеву</h2>
-            <div class="text-center">
-              <img src="img/adv_3.png" alt="img" class="img-responsive img-circle" />
-            </div>
-         </div>
-     </div>
-   </div>
-  </div>
    <!--END ADVANTAGES-->
+   <!--GALLERY-->
+   <div class="container-fluid gallery">
+   	<div class="row">
+   		<h2>галлерея работ</h2>
+   	</div>
+   	<div class="row">
+   		<div class="col-lg-10 col-lg-offset-1">
+   			 <div id="block-for-slider">
+		        <div id="viewport">
+		            <ul id="slidewrapper">
+		                <li class="slide"><img src="https://hsto.org/files/8d4/b19/80d/8d4b1980d48c418090e2c4466d8c06e1.jpg" alt="1" class="slide-img"></li>
+		                <li class="slide"><img src="https://hsto.org/files/ef1/3d7/97e/ef13d797e4c642c7a1d4b2b91f7ad7b3.jpg" alt="2" class="slide-img"></li>
+		                <li class="slide"><img src="https://hsto.org/files/ec5/592/f1e/ec5592f1e814401eb38305682a8e88d4.jpg" alt="3" class="slide-img"></li>
+		                <li class="slide"><img src="https://hsto.org/files/eda/61a/3c5/eda61a3c53db408d820643998d9acd81.jpg" alt="4" class="slide-img"></li>
+		            </ul>
+
+		            <div id="prev-next-btns">
+		                <div id="prev-btn" class="button">&lt;</div>
+		                <div id="next-btn" class="button">&gt;</div>
+		            </div>
+
+		            <ul id="nav-btns">
+		                <li class="slide-nav-btn"></li>
+		                <li class="slide-nav-btn"></li>
+		                <li class="slide-nav-btn"></li>
+		                <li class="slide-nav-btn"></li>
+		            </ul>
+		        </div>
+		    </div>
+   			<!--
+	   			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      <img src="img/slide1.jpg" alt="slide1">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				    <div class="item">
+				     <img src="img/slide2.jpg" alt="slide1">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				   	<!--
+				    <div class="item">
+				      <img src="img/slide3.jpg" alt="slide1">
+				      <div class="carousel-caption">
+				        ...
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="img/slide4.jpg" alt="slide1">
+				      <div class="carousel-caption">
+				        ...
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="img/slide5.jpg" alt="slide1">
+				      <div class="carousel-caption">
+				        ...
+				      </div>
+				    </div>
+				
+				  </div>
+				</div>
+			-->
+   		</div>
+   	</div>
+
+  </div>
+   <!--END GALLERY-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
