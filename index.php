@@ -115,54 +115,17 @@
 		            </ul>
 		        </div>
 		    </div>
-   			<!--
-	   			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-				  <!-- Indicators -
-				  <ol class="carousel-indicators">
-				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				  </ol>
-
-				  <!-- Wrapper for slides -
-				  <div class="carousel-inner" role="listbox">
-				    <div class="item active">
-				      <img src="img/slide1.jpg" alt="slide1">
-				      <div class="carousel-caption">
-				      </div>
-				    </div>
-				    <div class="item">
-				     <img src="img/slide2.jpg" alt="slide1">
-				      <div class="carousel-caption">
-				      </div>
-				    </div>
-				   	<!--
-				    <div class="item">
-				      <img src="img/slide3.jpg" alt="slide1">
-				      <div class="carousel-caption">
-				        ...
-				      </div>
-				    </div>
-				    <div class="item">
-				      <img src="img/slide4.jpg" alt="slide1">
-				      <div class="carousel-caption">
-				        ...
-				      </div>
-				    </div>
-				    <div class="item">
-				      <img src="img/slide5.jpg" alt="slide1">
-				      <div class="carousel-caption">
-				        ...
-				      </div>
-				    </div>
-				
-				  </div>
-				</div>
-			-->
    		</div>
    	</div>
-
+	<div class="row">
+		<div class="col-lg-2 col-lg-offset-5">
+			<div class="text-center">
+				<button>Перейти к галерее</button>
+			</div>
+		</div>
+	</div>
   </div>
+
    <!--END GALLERY-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.js"></script>
