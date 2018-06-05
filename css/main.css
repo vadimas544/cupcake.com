@@ -115,6 +115,7 @@ body{
 	margin-top: 100px;
 }
 /*******************************************************ADVANTAGES************************************************/
+/*
 .advantages{
 	height: 500px;
 	color: #ccc;
@@ -129,6 +130,22 @@ body{
 }
 .advantages img{
 	margin-top: 20px;
+}*/
+.advantage_wrap{
+	text-align: center;
+}
+.adv img{
+	display: block;
+	width: 70%;
+	height: auto;
+	margin:10px auto 20px;
+}
+.adv span{
+	color: black;
+	font-size: 17px;
+	font-weight: 600;
+	font-family: 'PT+Sans', sans-serif !important;
+	text-transform: uppercase;
 }
 /*****************************************MEDIAQUERIES***************/
 @media screen and (min-width: 768px) and (max-width: 992px){

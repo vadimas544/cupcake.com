@@ -66,8 +66,24 @@
       				</div>
   				</div>
       </div>
+      <div class="container advantage_wrap">
+      	<div class="row">
+      		<div class="col-lg-4 adv">
+      			<img src="img/1.jpg" class="img-circle img-responsive" alt="...">
+      			<span style="color: black;">Вкусные и качественные<br /> тортики на <br />любую тематику</span>
+      		</div>
+      		<div class="col-lg-4 adv">
+      			<img src="img/1.jpg" class="img-circle img-responsive" alt="...">
+      			<span style="color: black;">Выбор начинок<br />на любой вкус</span>
+      		</div>
+      		<div class="col-lg-4 adv">
+      			<img src="img/1.jpg" class="img-circle img-responsive" alt="...">
+      			<span style="color: black;">Доставка по Вишневому<br />и Киеву</span>
+      		</div>
+      	</div>
+      </div>
    <!--END HEADER-->
-   <!--ADVANTAGES-->
+   <!--ADVANTAGES-
    <div class="advantages">
      <div class="container">
        <div class="row">
@@ -101,7 +117,7 @@
             <div class="text-center">
               <img src="img/adv_3.png" alt="img" class="img-responsive img-circle" />
             </div>
-         </div>-->
+         </div>
      </div>
    </div>
   </div>
