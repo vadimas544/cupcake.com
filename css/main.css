@@ -51,7 +51,7 @@ table {
 /********************************NAVIGATION*****************/
 body{
 	background-color: #FFF7DF;
-	color: #fff !important;
+	color: #000 !important;
 }
 
 .navbar{
@@ -66,6 +66,7 @@ body{
 .header-contacts > p{
 	margin-top: 5px;
 	font-size: 19px;
+	color: #fff;
 }
 .header-contacts a{
 	margin-top: 5px;
