@@ -258,10 +258,42 @@ body{
 .gallery button:hover{
 	color: #CC9999;
 }
+<<<<<<< HEAD
 /*****************************************GALLERY*********************/
 /*MAKECAKE*/
 
 /*MAKECAKE*/
+=======
+/*****************************************END GALLERY*******************/
+/******************************************MAKECAKE*********************/
+.makecake{
+	border-bottom: 1px solid #2D000D; 
+	height: 200px;
+}
+.makecake h2{
+	text-align: center;
+	color: #2D000D;
+	font-size: 30px;
+	font-weight: 700;
+	word-spacing: 2px;
+	letter-spacing: 5px;
+	line-height: 15px;
+	font-family: 'PT+Sans', sans-serif !important;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+.makecake button{
+	margin-top: 30px;
+	width: 100%;
+	background-color: #2D000D;
+	color: #fff;
+	font-size: 21px;
+	text-transform: uppercase;
+	height: 50px;
+	margin-bottom: 20px;
+}
+/******************************************END MAKECAKE*****************/
+>>>>>>> origin/master
 /*****************************************MEDIAQUERIES***************/
 @media screen and (min-width: 768px) and (max-width: 992px){
   .header-contacts{
