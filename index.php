@@ -62,34 +62,68 @@
 		    </div>
    		</div>
    	</div>
-	<div class="row">
+	<!--
+  <div class="row">
 		<div class="col-lg-2 col-lg-offset-5">
 			<div class="text-center">
 				<button>Перейти к галерее</button>
 			</div>
 		</div>
 	</div>
+-->
   </div>
-<<<<<<< HEAD
-	<!--END GALLERY-->
-	
-=======
-
    <!--END GALLERY-->
    <!--MAKECAKE-->
    <div class="container makecake">
       <div class="row">
-        <div class="col-lg-8">
-            <h2 class="text-left">Выбери и закажи тортик сам</h2>
-        </div>
-        <div class="col-lg-4">
-            <button>заказать</button>
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2 class="text-center">Выбери и закажи тортик сам</h2>
         </div>
       </div>
-  
-    </div> 
+      <div class="row">
+          <div class="col-lg-4 col-lg-offset-1">
+            <img src="img/make_cake.png" alt="makecake">
+          </div>
+          <div class="col-lg-4">
+            <button>подобрать тортик</button>
+        </div>
+      </div>
+   </div> 
    <!--END MAKECAKE-->
->>>>>>> origin/master
+   <!--FOOTER-->
+   <div class="container-fluid footer">
+     <div class="row">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-2 col-lg-offset-1">
+             <ul>
+                <li><a href="index.php">Главная</a></li>
+                <li><a href="route.php?id=catalog">Каталог</a></li>
+                <li><a href="route.php?id=gallery">Работы</a></li>
+             </ul>
+           </div>
+           <div class="col-lg-2">
+             <ul>
+               <li><a href="route.php?id=delivery">Доставка</a></li>
+                <li><a href="route.php?id=payment">Оплата</a></li>
+                <li><a href="route.php?id=contacts">Контакты</a></li>
+             </ul>
+           </div>
+           <div class="col-lg-2 text-center footer-socials">
+             <p>0639489354</p>
+              <a href="#">Заказать обратный звонок</a>
+              <p><a href="#"><img src="img/facebook.png" alt="facebook"></a>
+              <a href="#"><img src="img/twitter.png" alt="facebook"></a>
+              </p>
+           </div>
+           <div class="col-lg-3 google">
+              <h2>Google Maps</h2>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!--ENDFOOTER-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

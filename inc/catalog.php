@@ -1,7 +1,7 @@
 <?php 
 include_once("header.php");
 
-	echo 'Catalog';
+	echo '<h2 style="color: black;">Catalog</h2>';
 
  ?>
 
