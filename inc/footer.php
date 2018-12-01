@@ -1,38 +1,34 @@
-   <!--FOOTER-->
 
-   <div class="container-fluid footer">
+   <!--FOOTER-->
+  <div class="footer">
      <div class="row">
-       <div class="container">
-         <div class="row">
-           <div class="col-lg-2 col-lg-offset-1">
+           <div class="col-lg-3 mx-auto">
              <ul>
                 <li><a href="index.php">Главная</a></li>
                 <li><a href="route.php?id=catalog">Каталог</a></li>
                 <li><a href="route.php?id=gallery">Работы</a></li>
              </ul>
            </div>
-           <div class="col-lg-2">
+           <div class="col-lg-3 mx-auto">
              <ul>
                <li><a href="route.php?id=delivery">Доставка</a></li>
                 <li><a href="route.php?id=payment">Оплата</a></li>
                 <li><a href="route.php?id=contacts">Контакты</a></li>
              </ul>
            </div>
-           <div class="col-lg-2 text-center footer-socials">
+           <div class="col-lg-3 mx-auto text-center footer-socials">
              <p>0639489354</p>
               <a href="#">Заказать обратный звонок</a>
               <p><a href="#"><img src="img/facebook.png" alt="facebook"></a>
               <a href="#"><img src="img/twitter.png" alt="facebook"></a>
               </p>
            </div>
-           <div class="col-lg-3 google">
+           <div class="col-lg-3 mx-auto google">
               <h2>Google Maps</h2>
            </div>
-         </div>
-       </div>
-     </div>
-   </div>
+   </div>     
   </div>
+</div>
    <!--ENDFOOTER-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.3.1.js"></script>
