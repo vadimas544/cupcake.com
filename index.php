@@ -1,18 +1,5 @@
 <?php include_once("inc/header.php"); ?>
-<!--
-	 <div class="jumbotron">
-      			<div class="container">
-      				<div class="header-text">
-      					<div class="row">
-      						<div class="col-lg-8 col-lg-offset-2 text-center">
-      							<a href="#">заказать тортик</a>
-      							<p>самые вкусные тортики в вишневом</p>
-      						</div>
-      					</div>
-      				</div>
-  				</div>
-      </div>
--->   
+<!-------------------JUMBOTRON--------------->
       <div class="jumbotron jumbotron-fluid">
       	<div class="container">
 			<div class="row">
@@ -27,8 +14,22 @@
 			</div>
 		</div>
 	  </div>
-   <!--END HEADER-->
-   <!--ADVANTAGES-->
+<!-------------------END JUMBOTRON--------------->
+
+<!---------------------ADVANTAGES----------------->
+	
+<div class="row">
+	<div class="col-lg-4 text-center">
+		<div class="row">
+			<img src="img/new_1.jpg" class="img-thumbnail img-fluid" alt="...">
+		</div>
+		<div class="row">
+			<p class="lead">Вкусные и качественные тортики на любую тематику</p>
+		</div>
+	</div>
+</div>
+
+<!--
 	      <div class="container advantage_wrap">
       	<div class="row">
       		<div class="col-lg-4 adv">
@@ -45,7 +46,35 @@
       		</div>
       	</div>
       </div>
-   <!--END ADVANTAGES-->
+-->
+<!--
+<div class="row">
+	<div class="card-deck">
+	  <div class="card">
+	    <img class="card-img-top" src="img/new_1.jpg" alt="Card image cap">
+	    <div class="card-block">
+	      <h4 class="card-title" style="color: black;">Card title</h4>
+	      <p class="card-text" style="color: black;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img class="card-img-top" src="img/new_1.jpg" alt="Card image cap">
+	    <div class="card-block">
+	      <h4 class="card-title" style="color: black;">Card title</h4>
+	      <p class="card-text" style="color: black;">This card has supporting text below as a natural lead-in to additional content.</p>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img class="card-img-top" src="img/new_1.jpg" alt="Card image cap">
+	    <div class="card-block">
+	      <h4 class="card-title" style="color: black;">Card title</h4>
+	      <p class="card-text" style="color: black;">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	    </div>
+	  </div>
+	</div>
+</div>
+-->      		
+<!---------------------END ADVANTAGES--------------->
    <!--GALLERY-->
    <div class="container-fluid gallery">
    	<div class="row">

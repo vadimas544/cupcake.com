@@ -173,6 +173,9 @@ a.nav-link:hover, a.nav-link>img{
 	font-family: 'PT+Sans', sans-serif !important;
 	text-transform: uppercase;
 }
+.card-deck{
+	display: flex !important;
+}
 /******************************************************GALLERY**************************************/
 .gallery{
 	border-top: 1px solid #2D000D;
