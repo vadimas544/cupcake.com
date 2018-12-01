@@ -52,7 +52,7 @@ table {
 /********************************NAVIGATION*****************/
 body{
 	background-color: #FFF7DF;
-	color: #fff !important;
+	color: #000 !important;
 }
 
 .navbar{
@@ -130,6 +130,7 @@ a.nav-link:hover, a.nav-link>img{
 .jumbotron a:hover{
 	color: #CC9999;
 }
+
 /*
 .header-text a{
 	text-transform: uppercase;
@@ -156,10 +157,28 @@ a.nav-link:hover, a.nav-link>img{
 */
 
 /*******************************************************ADVANTAGES************************************************/
-.advantage_wrap{
-	text-align: center;
-	margin-bottom: 30px;
+.adv p{
+	font-size: 22px;
+	font-weight: 600;
+	font-family: 'PT+Sans', sans-serif !important;
+	text-transform: uppercase;
 }
+.advantage p{
+
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+.advantage button{
+	color: #fff;
+	font-size: 18px;
+	background-color: #2D000D;
+	cursor: pointer;
+}
+.advantage button:hover{
+	background-color: #CC9999;
+}
+/*
 .adv img{
 	display: block;
 	width: 70%;
@@ -173,9 +192,7 @@ a.nav-link:hover, a.nav-link>img{
 	font-family: 'PT+Sans', sans-serif !important;
 	text-transform: uppercase;
 }
-.card-deck{
-	display: flex !important;
-}
+
 /******************************************************GALLERY**************************************/
 .gallery{
 	border-top: 1px solid #2D000D;

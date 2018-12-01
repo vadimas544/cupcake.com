@@ -18,62 +18,51 @@
 
 <!---------------------ADVANTAGES----------------->
 	
-<div class="row">
-	<div class="col-lg-4 text-center">
-		<div class="row">
-			<img src="img/new_1.jpg" class="img-thumbnail img-fluid" alt="...">
-		</div>
-		<div class="row">
-			<p class="lead">Вкусные и качественные тортики на любую тематику</p>
-		</div>
-	</div>
-</div>
 
-<!--
-	      <div class="container advantage_wrap">
-      	<div class="row">
-      		<div class="col-lg-4 adv">
-      			<img src="img/1.jpg" class="img-circle img-responsive" alt="...">
-      			<span style="color: black;">Вкусные и качественные<br /> тортики на <br />любую тематику</span>
-      		</div>
-      		<div class="col-lg-4 adv">
-      			<img src="img/1.jpg" class="img-circle img-responsive" alt="...">
-      			<span style="color: black;">Выбор начинок<br />на любой вкус</span>
-      		</div>
-      		<div class="col-lg-4 adv">
-      			<img src="img/1.jpg" class="img-circle img-responsive" alt="...">
-      			<span style="color: black;">Доставка по Вишневому<br />и Киеву</span>
-      		</div>
-      	</div>
-      </div>
--->
-<!--
-<div class="row">
-	<div class="card-deck">
-	  <div class="card">
-	    <img class="card-img-top" src="img/new_1.jpg" alt="Card image cap">
-	    <div class="card-block">
-	      <h4 class="card-title" style="color: black;">Card title</h4>
-	      <p class="card-text" style="color: black;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-	    </div>
-	  </div>
-	  <div class="card">
-	    <img class="card-img-top" src="img/new_1.jpg" alt="Card image cap">
-	    <div class="card-block">
-	      <h4 class="card-title" style="color: black;">Card title</h4>
-	      <p class="card-text" style="color: black;">This card has supporting text below as a natural lead-in to additional content.</p>
-	    </div>
-	  </div>
-	  <div class="card">
-	    <img class="card-img-top" src="img/new_1.jpg" alt="Card image cap">
-	    <div class="card-block">
-	      <h4 class="card-title" style="color: black;">Card title</h4>
-	      <p class="card-text" style="color: black;">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-	    </div>
-	  </div>
+	<div class="row">
+		<div class="col-lg-12 text-center adv">
+			<p>начинки на любой вкус</p><br>
+		</div>	
 	</div>
-</div>
--->      		
+	<div class="row">
+		<div class="col-lg-4 text-center advantage">
+			<div class="row">
+				<img src="img/new_1.jpg" class="img-thumbnail rounded mx-auto d-block" alt="...">
+			</div>
+			<br>
+			<div class="row">
+				<p class="mx-auto">Вкусные и качественные тортики на любую тематику</p>
+			</div>
+			<br>
+			<button type="button" class="btn btn-secondary">Подробнее...</button>
+			<br>
+		</div>
+		<div class="col-lg-4 text-center advantage">
+			<div class="row">
+				<img src="img/new_1.jpg" class="img-thumbnail rounded mx-auto d-block" alt="...">
+			</div>
+			<br>
+			<div class="row">
+				<p class="mx-auto">Вкусные и качественные тортики на любую тематику</p>
+			</div>
+			<br>
+			<button type="button" class="btn btn-secondary">Подробнее...</button>
+			<br>
+		</div>
+		<div class="col-lg-4 text-center advantage">
+			<div class="row">
+				<img src="img/new_1.jpg" class="img-thumbnail rounded mx-auto d-block" alt="...">
+			</div>
+			<br>
+			<div class="row text-center">
+				<p class="mx-auto">Вкусные и качественные тортики на любую тематику</p>
+			</div>
+			<br>
+			<button type="button" class="btn btn-secondary">Подробнее...</button>
+			<br>
+		</div>
+	</div>
+     		
 <!---------------------END ADVANTAGES--------------->
    <!--GALLERY-->
    <div class="container-fluid gallery">
