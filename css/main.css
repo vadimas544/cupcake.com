@@ -202,7 +202,7 @@ a.nav-link:hover, a.nav-link>img{
 	margin-top: 30px;
 	border-top: 1px solid #2D000D;
 	border-bottom: 1px solid #2D000D;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
 .gallery p{
@@ -322,19 +322,15 @@ a.nav-link:hover, a.nav-link>img{
 	text-transform: uppercase;
 	height: 50px;
 	margin-bottom: 20px;
+	cursor: pointer;
 }
 .gallery button:hover{
-	color: #CC9999;
+	background-color: #CC9999;
 }
 
 /*****************************************END GALLERY*******************/
 /******************************************MAKECAKE*********************/
-.makecake{
-	/*border-bottom: 1px solid #2D000D;*/ 
-	height: 360px;
-}
-.makecake h2{
-	text-align: center;
+.makecake p{
 	color: #2D000D;
 	font-size: 30px;
 	font-weight: 700;
@@ -347,18 +343,17 @@ a.nav-link:hover, a.nav-link>img{
 }
 .makecake button{
 	margin-top: 114px;
-	margin-left: 120px;
 	width: 100%;
 	background-color: #2D000D;
 	color: #fff;
 	font-size: 21px;
 	text-transform: uppercase;
-	height: 50px;
-	margin-bottom: 20px;
+	cursor: pointer;
 }
-.makecake img{
-	margin-left: 50px;
+.makecake button:hover{
+	background-color: #CC9999;
 }
+
 /******************************************END MAKECAKE*****************/
 /******************************************FOOTER*****************/
 .footer{
@@ -409,6 +404,14 @@ a.nav-link:hover, a.nav-link>img{
   .advantage button{
 	margin-bottom: 10px;
 	}
+  .makecake button{
+	margin-bottom: 10px;
+	margin-top: 54px;
+	}
+.makecake p{
+	font-size: 20px;
+	font-weight: 700;
+}
 }
 @media screen and (max-width: 768px){
   #prev-btn, #next-btn {
@@ -418,6 +421,14 @@ a.nav-link:hover, a.nav-link>img{
   .advantage button{
 	margin-bottom: 10px;
 	}
+  .makecake button{
+	margin-bottom: 10px;
+	float: left;
+	margin-top: 24px;
+	}
+  .makecake p{
+	font-size: 18px;
+	font-weight: 600;
 }
 }
 

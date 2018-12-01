@@ -64,7 +64,8 @@
 	</div>
      		
 <!---------------------END ADVANTAGES--------------->
-   <!--GALLERY-->
+
+<!----------------------------GALLERY-------------------------------------------->
 <div class="gallery">
    	<div class="row text-center">  		
    			<p class="mx-auto">галлерея работ</p>
@@ -95,25 +96,37 @@
 		        </div>
 		    </div>
    	</div>
-</div>
-	<!--
+
   <div class="row">
-		<div class="col-lg-2 col-lg-offset-5">
-			<div class="text-center">
-				<button>Перейти к галерее</button>
-			</div>
-		</div>
-	</div>
--->
+  	<div class="col-lg-4  mx-auto">
+  		<button type="button" class="btn btn-secondary">Перейти в галлерею</button>
+  	</div>			
   </div>
-   <!--END GALLERY-->
-   <!--MAKECAKE-->
-   <div class="container makecake">
+</div>
+<!-------------------------------------END GALLERY---------------------------------->
+ 
+<!--------------------------------------MAKECAKE------------------------------------>
+<div class="makecake">
+	<div class="row text-center">  		
+   		<p class="mx-auto">Выбери и закажи тортик сам</p>
+   	</div>
+   	<div class="row">
+   		<div class="col-lg-4 mx-auto">
+            <img src="img/make_cake.png" class="mx-auto d-block" alt="makecake">
+        </div>
+        <div class="col-lg-4 mx-auto">
+            <button type="button" class="btn btn-secondary">подобрать тортик</button>
+        </div>
+   	</div>
+
+</div>   
+ <!--  
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2 class="text-center">Выбери и закажи тортик сам</h2>
         </div>
       </div>
+ 
       <div class="row">
           <div class="col-lg-4 col-lg-offset-1">
             <img src="img/make_cake.png" alt="makecake">
