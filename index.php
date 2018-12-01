@@ -65,12 +65,13 @@
      		
 <!---------------------END ADVANTAGES--------------->
    <!--GALLERY-->
-   <div class="container-fluid gallery">
-   	<div class="row">
-   		<h2>галлерея работ</h2>
+<div class="gallery">
+   	<div class="row text-center">  		
+   			<p class="mx-auto">галлерея работ</p>
    	</div>
-   	<div class="row">
-   		<div class="col-lg-10 col-lg-offset-1">
+
+
+   	<div class="row mx-auto">
    			 <div id="block-for-slider">
 		        <div id="viewport">
 		            <ul id="slidewrapper">
@@ -93,8 +94,8 @@
 		            </ul>
 		        </div>
 		    </div>
-   		</div>
    	</div>
+</div>
 	<!--
   <div class="row">
 		<div class="col-lg-2 col-lg-offset-5">
