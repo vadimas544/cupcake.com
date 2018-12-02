@@ -1,43 +1,78 @@
 <?php include_once("inc/header.php"); ?>
-	 <div class="jumbotron">
-      			<div class="container">
-      				<div class="header-text">
-      					<div class="row">
-      						<div class="col-lg-8 col-lg-offset-2 text-center">
-      							<a href="#">заказать тортик</a>
-      							<p>самые вкусные тортики в вишневом</p>
-      						</div>
-      					</div>
-      				</div>
-  				</div>
-      </div>
+<!-------------------JUMBOTRON--------------->
+      <div class="jumbotron jumbotron-fluid">
+      	<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<p>самые вкусные тортики в вишневом</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<a href="#">заказать тортик</a>
+				</div>
+			</div>
+		</div>
+	  </div>
+<!-------------------END JUMBOTRON--------------->
 
-   <!--END HEADER-->
-   <!--ADVANTAGES-->
-	      <div class="container advantage_wrap">
-      	<div class="row">
-      		<div class="col-lg-4 adv">
-      			<img src="img/1.jpg" class="img-circle img-responsive" alt="...">
-      			<span style="color: black;">Вкусные и качественные<br /> тортики на <br />любую тематику</span>
-      		</div>
-      		<div class="col-lg-4 adv">
-      			<img src="img/1.jpg" class="img-circle img-responsive" alt="...">
-      			<span style="color: black;">Выбор начинок<br />на любой вкус</span>
-      		</div>
-      		<div class="col-lg-4 adv">
-      			<img src="img/1.jpg" class="img-circle img-responsive" alt="...">
-      			<span style="color: black;">Доставка по Вишневому<br />и Киеву</span>
-      		</div>
-      	</div>
-      </div>
-   <!--END ADVANTAGES-->
-   <!--GALLERY-->
-   <div class="container-fluid gallery">
-   	<div class="row">
-   		<h2>галлерея работ</h2>
+<!---------------------ADVANTAGES----------------->
+	
+
+	<div class="row">
+		<div class="col-lg-12 text-center adv">
+			<p>начинки на любой вкус</p><br>
+		</div>	
+	</div>
+	<div class="row">
+		<div class="col-lg-4 text-center advantage">
+			<div class="row">
+				<img src="img/new_1.jpg" class="img-thumbnail rounded mx-auto d-block" alt="...">
+			</div>
+			<br>
+			<div class="row">
+				<p class="mx-auto">Вкусные и качественные тортики на любую тематику</p>
+			</div>
+			<br>
+			<button type="button" class="btn btn-secondary">Подробнее...</button>
+			<br>
+		</div>
+		<div class="col-lg-4 text-center advantage">
+			<div class="row">
+				<img src="img/new_1.jpg" class="img-thumbnail rounded mx-auto d-block" alt="...">
+			</div>
+			<br>
+			<div class="row">
+				<p class="mx-auto">Вкусные и качественные тортики на любую тематику</p>
+			</div>
+			<br>
+			<button type="button" class="btn btn-secondary">Подробнее...</button>
+			<br>
+		</div>
+		<div class="col-lg-4 text-center advantage">
+			<div class="row">
+				<img src="img/new_1.jpg" class="img-thumbnail rounded mx-auto d-block" alt="...">
+			</div>
+			<br>
+			<div class="row text-center">
+				<p class="mx-auto">Вкусные и качественные тортики на любую тематику</p>
+			</div>
+			<br>
+			<button type="button" class="btn btn-secondary">Подробнее...</button>
+			<br>
+		</div>
+	</div>
+     		
+<!---------------------END ADVANTAGES--------------->
+
+<!----------------------------GALLERY-------------------------------------------->
+<div class="gallery">
+   	<div class="row text-center">  		
+   			<p class="mx-auto">галлерея работ</p>
    	</div>
-   	<div class="row">
-   		<div class="col-lg-10 col-lg-offset-1">
+
+
+   	<div class="row mx-auto">
    			 <div id="block-for-slider">
 		        <div id="viewport">
 		            <ul id="slidewrapper">
@@ -60,35 +95,46 @@
 		            </ul>
 		        </div>
 		    </div>
-   		</div>
    	</div>
-	<div class="row">
-		<div class="col-lg-2 col-lg-offset-5">
-			<div class="text-center">
-				<button>Перейти к галерее</button>
-			</div>
-		</div>
-	</div>
-  </div>
 
-   <!--END GALLERY-->
-   <!--MAKECAKE-->
-   <div class="container makecake">
-      <div class="row">
-        <div class="col-lg-8">
-            <h2 class="text-left">Выбери и закажи тортик сам</h2>
+  <div class="row">
+  	<div class="col-lg-4  mx-auto">
+  		<button type="button" class="btn btn-secondary">Перейти в галлерею</button>
+  	</div>			
+  </div>
+</div>
+<!-------------------------------------END GALLERY---------------------------------->
+ 
+<!--------------------------------------MAKECAKE------------------------------------>
+<div class="makecake">
+	<div class="row text-center">  		
+   		<p class="mx-auto">Выбери и закажи тортик сам</p>
+   	</div>
+   	<div class="row">
+   		<div class="col-lg-4 mx-auto">
+            <img src="img/make_cake.png" class="mx-auto d-block" alt="makecake">
         </div>
-        <div class="col-lg-4">
-            <button>заказать</button>
+        <div class="col-lg-4 mx-auto">
+            <button type="button" class="btn btn-secondary">подобрать тортик</button>
+        </div>
+   	</div>
+
+</div>   
+ <!--  
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2 class="text-center">Выбери и закажи тортик сам</h2>
         </div>
       </div>
-  
-    </div> 
+ 
+      <div class="row">
+          <div class="col-lg-4 col-lg-offset-1">
+            <img src="img/make_cake.png" alt="makecake">
+          </div>
+          <div class="col-lg-4">
+            <button>подобрать тортик</button>
+        </div>
+      </div>
+   </div> 
    <!--END MAKECAKE-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.3.1.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/common.js"></script>
-  </body>
-</html>
+<?php include_once("inc/footer.php"); ?>
