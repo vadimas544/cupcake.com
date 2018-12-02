@@ -23,7 +23,7 @@
                 <li class="list-group-item"><a href="#"><img src="img/facebook.png" alt="facebook"></a>&nbsp&nbsp&nbsp<a href="#"><img src="img/twitter.png" alt="facebook"></a></li>
              </ul>
            </div>
-           <div class="col-lg-3">
+           <div class="col-lg-3 ml-auto">
               <h2 class="text-center">Google Maps</h2>
            </div>
    </div>     

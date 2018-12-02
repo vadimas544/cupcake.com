@@ -354,6 +354,24 @@ a.nav-link:hover, a.nav-link>img{
 .makecake button:hover{
 	background-color: #CC9999;
 }
+/*****************************************CATEGORY************************/
+.category p{
+	font-size: 22px;
+	font-weight: 600;
+	font-family: 'PT+Sans', sans-serif !important;
+	text-transform: uppercase;
+	color: #2D000D; 
+}
+.cake{
+	
+}
+.cake img:hover{
+	opacity: 0.5;
+}
+.cupcake{
+	
+}
+/*****************************************ENDCATEGORY************************/
 
 /******************************************END MAKECAKE*****************/
 /******************************************FOOTER*****************/
@@ -365,6 +383,7 @@ a.nav-link:hover, a.nav-link>img{
 	font-size: 14px;
 	border: 0px !important;
 	opacity: 0.5;
+	margin-top: 10px;
 }
 .footer ul li{
     color: white !important;
@@ -380,7 +399,8 @@ a.nav-link:hover, a.nav-link>img{
 	color: white;
 	text-transform: uppercase;
 	margin-top: 65px;
-	border: 2px solid #fff;
+	padding-right: 10px;
+	border: 1px solid #fff;
 	height: 40px;
 }
 /*
