@@ -458,10 +458,16 @@ footer a{
 	margin-bottom: 10px;
 	margin-top: 54px;
 	}
-.makecake p{
+	.makecake p{
 	font-size: 20px;
 	font-weight: 700;
-}
+	}
+	.cake{
+		margin-bottom: 20px;
+	}
+	.honey-cake{
+		margin-bottom: 20px;
+	}
 }
 @media screen and (max-width: 768px){
   #prev-btn, #next-btn {
@@ -479,6 +485,12 @@ footer a{
   .makecake p{
 	font-size: 18px;
 	font-weight: 600;
-}
+	}
+	.cake{
+		margin-bottom: 20px;
+	}
+	.honey-cake{
+		margin-bottom: 20px;
+	}
 }
 

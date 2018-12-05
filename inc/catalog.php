@@ -2,6 +2,16 @@
  require_once('config/db.php');
  include_once('header.php');
  ?>
+ <!--
+ <div class="row">
+ 	<nav aria-label="breadcrumb">
+	  <ol class="breadcrumb">
+	    <li class="breadcrumb-item"><a href="#">Главная</a></li>
+	    <li class="breadcrumb-item active" aria-current="page"><a href="#">Каталог</a></li>
+	  </ol>
+	</nav>
+ </div>
+-->
  <div class="category text-center">
  	<div class="row mx-auto">
  		<div class="col-lg-12 text-center">
@@ -14,7 +24,7 @@
 		<div class="col-lg-6 ml-auto">
 			<div class="cake">
 				<span class="new_text">торты</span>
-				<a href="#"><img class="mx-auto d-block" src="img/cake_cat2.jpg" alt="facebook"></a>				
+				<a href="route.php?id=cake"><img class="mx-auto d-block" src="img/cake_cat2.jpg" alt="facebook"></a>				
 			</div>
 		</div>
 		<div class="col-lg-6 mr-auto">

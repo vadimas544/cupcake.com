@@ -9,5 +9,7 @@
 		require_once("inc/payment.php");
 	}elseif ($_GET['id'] == 'contacts'){
 		require_once("inc/contacts.php");
+	}elseif ($_GET['id'] == 'cake'){
+		require_once("inc/cake.php");
 	}
 ?>
