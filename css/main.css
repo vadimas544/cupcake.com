@@ -362,14 +362,20 @@ a.nav-link:hover, a.nav-link>img{
 	text-transform: uppercase;
 	color: #2D000D; 
 }
-.cake{
-	
-}
+.cake span, .cupcake span, .honey-cake span, .merenga span {display: none; width: 200px; position: absolute; top: 50%; left: 36%}
+.cake:hover span, .cupcake:hover span, .honey-cake:hover span, .merenga:hover span {display: block; color: #2D000D; font-size: 30px; font-weight: 700; word-spacing: 2px; letter-spacing: 5px; line-height: 15px; font-family: 'PT+Sans', sans-serif !important; text-transform: uppercase;}
+
 .cake img:hover{
 	opacity: 0.5;
 }
-.cupcake{
-	
+.cupcake img:hover{
+	opacity: 0.5;
+}
+.honey-cake img:hover{
+	opacity: 0.5;
+}
+.merenga img:hover{
+	opacity: 0.5;
 }
 /*****************************************ENDCATEGORY************************/
 
