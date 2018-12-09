@@ -47,6 +47,26 @@
 		return $result;
 		*/
 	}
-	//var_dump(db_connect());
+
+	function getProducts()
+	{
+		$link = db_connect();
+
+		$sql = 'SELECT * FROM products';
+		$result = mysqli_query($link, $sql);
+		return $result;
+	}
+
+	function getCountProd()
+	{
+		$link = db_connect();
+
+		$sql = 'SELECT count(*) FROM products';
+		$result = mysqli_query($link, $sql);
+
+		$num = mysqli_fetch_row($result);
+		return $num[0];
+	}
+	echo getCountProd();
 	//var_dump(getAllCategories());
 	//var_dump($link);	

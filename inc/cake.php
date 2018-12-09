@@ -22,28 +22,20 @@ include_once('header.php');
 		
 		</div>
 		<div class="col-lg-10 mx-auto">
-			<table class="table table-bordered">
-                    <tbody>                                
-                         <tr width="90%">
-                         <?php
-                            $count = 1;
-                            while($row = mysqli_fetch_assoc($result)) { 
-                                /*extract($row);
-                                $data = $row['image'];*/
-                                        echo '<td class="text-center">
-                                                <img src="'. $row['image'].'" alt="" class="img-responsive text-center" />
-                                                <p class="text-center">Цена</p>
-                                                <a class="btn btn-success add-to-cart" tid="'.$row["id"].'">Купить</a>
-                                              </td>';
-                                if($count++ % 2 == 0){
-                                    echo "</tr><tr>";
-                                    }
-                                }
-
-                                    ?>
-                                    </tr>                      
-                    </tbody>                        
-                </table>
+			<br>
+			<?php $products = getProducts();
+				  $count = getCountProd();
+			 ?>
+			 <table class="table table-bordered">
+				<?php 
+				    echo "<tr>";
+				    $count = 0;
+					while($count){
+    				if (!($count % 2)){ echo "</tr><tr>"; }
+    				echo "<td>{$products['id']}{$products['title']}</td>";
+					}
+					echo "</tr>"; ?>
+			</table>		
 		</div>
 	</div>
 
