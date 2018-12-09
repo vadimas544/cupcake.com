@@ -368,6 +368,23 @@ a.nav-link:hover, a.nav-link>img{
 .cake img:hover{
 	opacity: 0.5;
 }
+.list-group-item{
+	background-color: #947B74;
+	font-family: 'PT Sans' !important;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+}
+.list-group-item a{
+
+	list-style-type: none;
+	color: white !important;
+	text-decoration: none;
+}
+.list-group-item a:hover{
+	list-style-type: none;
+	color: #CC9999 !important;
+}
 .cupcake img:hover{
 	opacity: 0.5;
 }
