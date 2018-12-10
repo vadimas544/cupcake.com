@@ -37,7 +37,7 @@ include_once('header.php');
     				if($count % 2 == 0) {
     				echo '</tr><tr>';
     				}
-                    echo '<td>'.$products[$count]['prod_desc'].'</td>';
+                    echo '<td>'.$products[$count]['prod_desc'].'<br><img src="'.$products[$count]['prod_img'].'" /><br></td>';
                     $count++;
                     }
                     echo '</tr>'; ?>
