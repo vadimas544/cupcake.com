@@ -31,6 +31,7 @@
 		while($row = mysqli_fetch_array($result)){
 			$res_array[] = $row;
 		}
+		return $res_array;
 	}
 
 	function getCategories()
@@ -40,12 +41,10 @@
 		$sql = 'SELECT cat_name FROM categories';
 
 		$result = mysqli_query($link, $sql);
-		return $result;
-		/*		
+		return $result;		
 		$result = db_result_to_array($result);
-		//var_dump($result);
 		return $result;
-		*/
+	
 	}
 
 	function getProducts()
@@ -53,7 +52,10 @@
 		$link = db_connect();
 
 		$sql = 'SELECT * FROM products';
+
 		$result = mysqli_query($link, $sql);
+		
+		$result = db_result_to_array($result);
 		return $result;
 	}
 
@@ -67,6 +69,8 @@
 		$num = mysqli_fetch_row($result);
 		return $num[0];
 	}
-	echo getCountProd();
+
+	
+	//echo getCountProd();
 	//var_dump(getAllCategories());
 	//var_dump($link);	

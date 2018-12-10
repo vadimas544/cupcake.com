@@ -1,5 +1,5 @@
 <?php 
-error_reporting(0);
+//error_reporting(0);
 require_once 'config/functions.php';
 
 include_once('header.php');
@@ -23,18 +23,24 @@ include_once('header.php');
 		</div>
 		<div class="col-lg-10 mx-auto">
 			<br>
-			<?php $products = getProducts();
-				  $count = getCountProd();
-			 ?>
+			<?php 
+
+			$products = getProducts();
+			$num = getCountProd();
+			$count = 0; 
+			?>
 			 <table class="table table-bordered">
 				<?php 
-				    echo "<tr>";
-				    $count = 0;
-					while($count){
-    				if (!($count % 2)){ echo "</tr><tr>"; }
-    				echo "<td>{$products['id']}{$products['title']}</td>";
-					}
-					echo "</tr>"; ?>
+				 	echo "<tr>";
+				    
+					while($count < $num){
+    				if($count % 2 == 0) {
+    				echo '</tr><tr>';
+    				}
+                    echo '<td>'.$products[$count]['prod_desc'].'</td>';
+                    $count++;
+                    }
+                    echo '</tr>'; ?>
 			</table>		
 		</div>
 	</div>
