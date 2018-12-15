@@ -9,7 +9,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<a href="#">заказать тортик</a>
+					<a href="route.php?id=cake">заказать тортик</a>
 				</div>
 			</div>
 		</div>

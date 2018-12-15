@@ -48,7 +48,7 @@ include_once('header.php');
     				echo '</tr><tr>';
     				}
                     echo '<td class="vert-aligned"><h2>'.$products[$count]['prod_desc'].'</h2><br>
-                    	  <img src="'.$image_path.'" /><br>
+                    	  <img src="'.$image_path.'" class="img-fluid" /><br>
                     	  <a href="route.php?id=cake_item&product_id='.$products[$count]["prod_id"].'">Подробнее</a>
                     	  </td>';
                     //var_dump($image);

@@ -101,10 +101,11 @@ a.nav-link:hover, a.nav-link>img{
 
 .jumbotron{
 	height: 850px;
-	background: url(../img/new_cake.jpg) no-repeat center center;
+	background: url(../img/bg1.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	background-size: cover;
 	border-radius: 0;
+	opacity: 0.9;
 }
 .jumbotron{
 	color: #fff;
