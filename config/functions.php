@@ -82,7 +82,7 @@
 				$img = imagecreatefrompng($name);
 				break;
 		}
-	*/
+	
 		$img = imagecreatefromjpeg($name);
 
 		$img_width = imageSX($img);
@@ -109,14 +109,25 @@
 				break;
 		}
 		*/
-
+		/*
 		imagejpeg($new_img,'img/cake/rescake'.substr($name,8,6));
 		imagedestroy($new_img);
 		imagedestroy($img);
 
 		return true;
+		*/
 	}
 
+	function getProduct($id){
+		
+		$link = db_connect();
+
+		$sql = 'SELECT * FROM products WHERE prod_id='.$id;
+
+		$result = mysqli_query($link, $sql);
+		$result = db_result_to_array($result);
+		return $result;
+	}
 	
 	//echo getCountProd();
 	//var_dump(getAllCategories());

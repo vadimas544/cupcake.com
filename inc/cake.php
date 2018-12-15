@@ -1,7 +1,6 @@
 <?php 
 //error_reporting(0);
 require_once 'config/functions.php';
-require_once 'config/SimpleImage.php';
 
 include_once('header.php');
  ?>
@@ -22,7 +21,7 @@ include_once('header.php');
 			<?php//  } ?>
 		
 		</div>
-		<div class="col-lg-10 mx-auto">
+		<div class="col-lg-10 mx-auto cake-table">
 			<br>
 			<?php 
 
@@ -37,19 +36,22 @@ include_once('header.php');
 			//$img = resize($old_file, $new_file, $w, $h, false, false);
 			//var_dump($img); 
 			?>
-			 <table class="table table-responsive">
+			 <table class="table table-responsive-lg table-responsive-md table-responsive-sm text-center table-responsive-xl">
 				<?php 
 				 	echo "<tr>";
 				    
 					while($count < $num){
 					$image_path = $products[$count]['prod_img'];
-					$image = resize_image($image_path);
-					$new_image_path = 'img/cake/rescake'.$count.'.jpg';
+					//$image = resize_image($image_path);
+					//$new_image_path = 'img/cake/rescake'.$count.'.jpg';
     				if($count % 2 == 0) {
     				echo '</tr><tr>';
     				}
-                    echo '<td>'.$products[$count]['prod_desc'].'<br><img src="'.$new_image_path.'" /><br></td>';
-                    var_dump($image);
+                    echo '<td class="vert-aligned"><h2>'.$products[$count]['prod_desc'].'</h2><br>
+                    	  <img src="'.$image_path.'" /><br>
+                    	  <a href="route.php?id=cake_item&product_id='.$products[$count]["prod_id"].'">Подробнее</a>
+                    	  </td>';
+                    //var_dump($image);
                     $count++;
                     }
                     echo '</tr>'; ?>

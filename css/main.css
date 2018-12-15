@@ -395,7 +395,48 @@ a.nav-link:hover, a.nav-link>img{
 	opacity: 0.5;
 }
 /*****************************************ENDCATEGORY************************/
+/*******************************************CAKETABLE*************************/
+.cake-table a{
+	text-transform: uppercase;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	border: 1px solid #fff;
+	padding: 4px 4px;
+	background-color: #2D000D;
+	border-radius: 5px;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.cake-table a:hover{
+	color: #CC9999;
+}
 
+table tbody > tr > td.vert-aligned {
+    vertical-align: middle;
+}
+/*******************************************ENDCAKETABLE*************************/
+/*******************************************CAKEITEM*************************/
+.cakeitem{
+	text-transform: uppercase;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	border: 1px solid #fff;
+	padding: 4px 4px;
+	background-color: #2D000D;
+	border-radius: 5px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+.cakeitem:hover{
+	color: #CC9999;
+	text-decoration: none;
+}
+/*******************************************ENDCAKEITEM*************************/
 /******************************************END MAKECAKE*****************/
 /******************************************FOOTER*****************/
 .footer{
@@ -485,6 +526,12 @@ footer a{
 	.honey-cake{
 		margin-bottom: 20px;
 	}
+	.cakeinfo p{
+		margin-left: 195px; 
+	}
+	.cakeinfo a{
+		margin-left: 300px; 
+	}
 }
 @media screen and (max-width: 768px){
   #prev-btn, #next-btn {
@@ -508,6 +555,12 @@ footer a{
 	}
 	.honey-cake{
 		margin-bottom: 20px;
+	}
+	.cakeinfo p{
+		margin-left: 105px; 
+	}
+	.cakeinfo a{
+		margin-left: 200px; 
 	}
 }
 

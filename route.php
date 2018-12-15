@@ -11,5 +11,7 @@
 		require_once("inc/contacts.php");
 	}elseif ($_GET['id'] == 'cake'){
 		require_once("inc/cake.php");
+	}elseif ($_GET['id'] == 'cake_item'){
+		require_once("inc/cake_item.php");
 	}
 ?>
