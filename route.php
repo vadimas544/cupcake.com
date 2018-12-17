@@ -14,4 +14,7 @@
 	}elseif ($_GET['id'] == 'cake_item'){
 		require_once("inc/cake_item.php");
 	}
+	elseif ($_GET['id'] == 'nach'){
+		require_once("inc/nachinki.php");
+	}
 ?>

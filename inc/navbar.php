@@ -14,6 +14,9 @@
 				        <a class="nav-link" href="route.php?id=catalog">Каталог</a>
 				      </li>
 				      <li class="nav-item">
+				        <a class="nav-link" href="route.php?id=nach">Начинки</a>
+				      </li>
+				      <li class="nav-item">
 				        <a class="nav-link" href="route.php?id=gallery">Работы</a>
 				      </li>
 				      <li class="nav-item">
